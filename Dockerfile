@@ -4,7 +4,7 @@ WORKDIR /dist
 
 COPY package*.json ./
 
-RUN npm install 
+RUN git clone https://github.com/LogicLegion2/backend-docker.git
 
 COPY . .
 
