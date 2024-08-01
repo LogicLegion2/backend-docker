@@ -7,7 +7,7 @@
     "swagger-dev": "node dist/tools/swagger.js",
     "dev": "nodemon app/index.js --exec babel-node",
     "build": "babel app --out-dir dist",
-    "start": "node dist/index.js",
+    "start": "node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "doc": "jsdoc -c jsdoc.json",
     "swagger": "node dist/tools/swagger.js"
